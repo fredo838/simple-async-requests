@@ -1,1 +1,1 @@
-import simple_async_requests
+import simple_async_requests.simple_async_requests
