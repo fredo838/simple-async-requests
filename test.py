@@ -5,12 +5,10 @@ def construct_configs():
     configs = []
     for _ in range(300):
         configs.append({
-            'method': 'post',
+            'method': 'get',
             'url': 'https://flash-the-slow-api.herokuapp.com/delay/2000',
             'headers': {},
-            'json': {}
         })
-    # will fed as httpx_client.request(**config)
     return configs
 
 
