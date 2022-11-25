@@ -1,0 +1,10 @@
+[project]
+name = "simple_async_requests"
+version = "1.0.0"
+authors = [
+    { name = "Frederik Bode" },
+    { name = "Niels Dewulf" }
+]
+dependencies = [
+    "httpx"
+]
